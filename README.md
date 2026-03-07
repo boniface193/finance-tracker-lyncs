@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Finance Flow - Personal Finance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, intuitive personal finance dashboard built with React and Tailwind CSS. Track your income, expenses, and budgets with ease.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Smart Dashboard** - Get a quick overview of your financial health
+- **Transaction Management** - Add, view, and delete transactions seamlessly
+- **Budget Tracking** - Set category budgets and monitor your spending
+- **Visual Insights** - Interactive charts to understand spending patterns
+- **Monthly Navigation** - Browse through different months to track progress
+- **Persistent Data** - All data saved locally in your browser
 
-### `npm start`
+## 🎨 Design Choices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I focused on creating a calm, trustworthy financial experience:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Soft gradients & shadows** - Creates a premium, approachable feel
+- **Micro-interactions** - Subtle animations make the app feel alive
+- **Color-coded categories** - Quick visual recognition of spending types
+- **Empty states** - Friendly guidance when no data exists
+- **Responsive layout** - Works beautifully on all devices
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 18 with TypeScript
+- Tailwind CSS for styling
+- Recharts for data visualization
+- date-fns for date manipulation
+- Heroicons for beautiful icons
+- LocalStorage for data persistence
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm start`
+4. Build for production: `npm run build`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💡 What I'd Improve With More Time
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Data Export** - Allow users to download their transactions as CSV
+2. **Recurring Transactions** - Support for monthly bills and subscriptions
+3. **Goal Setting** - Let users set savings goals and track progress
+4. **Dark Mode** - Add theme switching for night owls
+5. **Multi-currency Support** - Handle different currencies
+6. **Charts Drill-down** - Click categories to see detailed breakdowns
 
-### `npm run eject`
+## 🤔 Challenges Faced
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The biggest challenge was designing the budget system to handle both predefined and custom categories while maintaining a clean UX. I solved this by pre-populating with sensible defaults but allowing users to edit limits freely.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Another interesting challenge was making the date/month navigation feel natural - the month picker with automatic data loading creates a smooth browsing experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ⏱️ Time Spent
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Approximately 12 hours spread over 4 days:
+- Planning & Setup: 2 hours
+- Core Components: 5 hours
+- Polish & Animations: 3 hours
+- Testing & Documentation: 2 hours
 
-## Learn More
+## 📱 Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Deploy to Vercel/Netlify and add link here]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+Built with ❤️ for the Frontend Developer Evaluation
