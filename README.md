@@ -15,15 +15,14 @@ A beautiful, intuitive personal finance dashboard built with React and Tailwind 
 
 I focused on creating a calm, trustworthy financial experience:
 
-- **Soft gradients & shadows** - Creates a premium, approachable feel
+- **Soft dark theme & shadows** - Creates a premium, approachable feel, dark theme reduces eye strain in low-light
 - **Micro-interactions** - Subtle animations make the app feel alive
-- **Color-coded categories** - Quick visual recognition of spending types
 - **Empty states** - Friendly guidance when no data exists
 - **Responsive layout** - Works beautifully on all devices
 
 ## 🛠️ Tech Stack
 
-- React 18 with TypeScript
+- React 19 with TypeScript
 - Tailwind CSS for styling
 - Recharts for data visualization
 - date-fns for date manipulation
@@ -42,7 +41,7 @@ I focused on creating a calm, trustworthy financial experience:
 1. **Data Export** - Allow users to download their transactions as CSV
 2. **Recurring Transactions** - Support for monthly bills and subscriptions
 3. **Goal Setting** - Let users set savings goals and track progress
-4. **Dark Mode** - Add theme switching for night owls
+4. **Light Mode** - Add theme switching for day
 5. **Multi-currency Support** - Handle different currencies
 6. **Charts Drill-down** - Click categories to see detailed breakdowns
 
@@ -54,15 +53,15 @@ Another interesting challenge was making the date/month navigation feel natural 
 
 ## ⏱️ Time Spent
 
-Approximately 12 hours spread over 4 days:
-- Planning & Setup: 2 hours
-- Core Components: 5 hours
+Approximately 12 hours spread over 3 days:
+- Planning & Setup: 3 hours
+- Core Components: 4 hours
 - Polish & Animations: 3 hours
 - Testing & Documentation: 2 hours
 
 ## 📱 Live Demo
 
-[Deploy to Vercel/Netlify and add link here]
+[\[Deploy to Netlify\]](https://track-fina.netlify.app/)
 
 ---
 
