@@ -14,13 +14,9 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedMonth, setSelectedMonth] = useState(new Date());
 
-  const loadMonthData = () => {
+  useEffect(() => {
     const data = getCurrentMonthData(selectedMonth);
     setMonthData(data);
-  };
-
-  useEffect(() => {
-    loadMonthData();
   }, [selectedMonth]);
 
   const handleAddTransaction = (transaction: Transaction) => {

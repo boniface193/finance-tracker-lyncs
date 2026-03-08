@@ -14,7 +14,6 @@ const MonthlySummary: React.FC<Props> = ({ monthData }) => {
     {
       label: 'Total Income',
       value: monthData.income,
-      change: '+12.5%', // This could be calculated from previous month
       icon: ArrowTrendingUpIcon,
       color: 'text-emerald-600',
       bgColor: 'bg-emerald-100',
@@ -22,7 +21,6 @@ const MonthlySummary: React.FC<Props> = ({ monthData }) => {
     {
       label: 'Total Expenses',
       value: monthData.expenses,
-      change: '-8.1%',
       icon: ArrowTrendingDownIcon,
       color: 'text-red-600',
       bgColor: 'bg-red-100',
