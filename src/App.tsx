@@ -14,14 +14,14 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedMonth, setSelectedMonth] = useState(new Date());
 
-  useEffect(() => {
-    loadMonthData();
-  }, [selectedMonth]);
-
   const loadMonthData = () => {
     const data = getCurrentMonthData(selectedMonth);
     setMonthData(data);
   };
+
+  useEffect(() => {
+    loadMonthData();
+  }, [selectedMonth]);
 
   const handleAddTransaction = (transaction: Transaction) => {
     if (!monthData) return;
