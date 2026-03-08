@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { PencilIcon, CheckIcon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Budget, Transaction, TransactionCategory } from '../types';
+import { Budget, Transaction } from '../types';
 
 interface Props {
   budgets: Budget[];
